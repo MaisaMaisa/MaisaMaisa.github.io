@@ -1,0 +1,139 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+#heybody {
+  height: 900px;
+  left:0;
+	top:0;
+	right:0;
+  bottom:0;
+  position: fixed;
+  background: white;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+#name {
+  position: absolute;
+  font-size: 15em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  left:4%;
+  top:5%;
+  color: white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.invisible{
+  display: none;
+  position: absolute;
+  border: solid;
+  border-width: 0.1px;
+  border-color: beige;
+  background-color:white;
+  margin: 2%;
+  width: 35%;
+  left: 42%;
+  bottom:25%;
+}
+
+#inv1 {
+  position: absolute;
+  left: 2%;
+  bottom: 3%;
+  margin: 5%;
+  color: yellow;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+#close1{
+  position: absolute;
+  right: 0; 
+  background-color: transparent; 
+  font-size: 350%; 
+  color: yellow;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+#webmai{
+  display: none;
+  position: absolute;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  right: 6%;
+  bottom: 7%;
+  width: 16em;
+  color: black;
+  border-radius: 60px 60px 5px 60px;
+  background-color: lightgray;
+  padding: 15px;
+  box-shadow: 0 37.125px 70px -12.125px rgba(0,0,0,0.3);
+}
+
+#webmai1 {
+  visibility: hidden;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.maisaweb{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+
+#mail{
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+}
+
+/* responsiveness  */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .maisaweb {
+    left: 60%;
+    bottom: 80%;
+  }
+
+  #webmai{
+    visibility: hidden;
+  }
+
+  #webmai1 {
+    visibility: visible;
+    position: absolute;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    left: 9%;
+    top: 7%;
+    width: 16em;
+    color: black;
+    border-radius: 60px 60px 5px 60px;
+    background-color: lightgray;
+    padding: 15px;
+    box-shadow: 0 37.125px 70px -12.125px rgba(0,0,0,0.3);
+  }
+  
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+
+<head id = "maintxt">
+    <meta charset="UTF-8">
+    <title>Pia Reš</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<div class="piares">
+        
+</div>
+    
+
+<body>
+    <div id="heybody"></div>
+
+    <div>
+        <button id="name">
+            <em>PIA REŠ</em>
+        </button>
+    </div> 
+
+    <div class="invisible">
+        
+            <button id="close1">X</button>
+
+            <img src="1S8A3424.jpg" style="height:50%; width:90%;  margin: 5%"> <br>
+        
+            <p id= "inv1"><b>
+                Pia Reš (Klagenfurt, 1993) <br>
+                Slovenian saxophonist, performer and improviser/
+                Lives in Amsterdam (NL) </b>
+            </p>
+    </div>
+    
+    <div>
+        <p id="mail">
+            <a style=" text-decoration: none; color: black" href="mailto:podgornik.pia@gmail.com">podgornik.pia@gmail.com</a> 
+        </p>
+    </div> 
+
+     
+
+<div class="maisaweb">
+    <a href="https://www.maisaimamovic.eu" target="_blank">
+    <img src="maisaweb.png" style="height:0.5em; width:0.5em">
+</div>
+
+<div>
+    <p id="webmai">web-everything by Maisa Imamović</p>
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+        $("#name").click(function(){
+            $(".invisible").show();
+        })
+
+        $("#close1").click(function(){
+            $(".invisible").hide();
+        });
+
+        $(".maisaweb").hover(function(){
+            $("#webmai").toggle();
+        });
+
+    });
+
+</script>
+
+
